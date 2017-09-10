@@ -40,8 +40,8 @@ proxy:
     annotations: {}
     nodePort: null
   image:
-    name: jupyterhub/configurable-http-proxy
-    tag: 2.0.4
+    name: winterflower/configurable-http-proxy-mod
+    tag: latest
   cmd:
     - configurable-http-proxy
     - --ip=0.0.0.0
